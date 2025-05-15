@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/mrcjkb/vimcats/compare/v1.1.0...v1.1.1) (2025-05-15)
+
+
+### Bug Fixes
+
+* func tag spillover if line == TW ([#23](https://github.com/mrcjkb/vimcats/issues/23)) ([044a6c9](https://github.com/mrcjkb/vimcats/commit/044a6c987d9f19a719a17565a3498a0a88bc5078))
+
 ## [1.1.0](https://github.com/mrcjkb/vimcats/compare/v1.0.2...v1.1.0) (2024-09-04)
 
 
