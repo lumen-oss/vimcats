@@ -804,6 +804,19 @@ U.ok()                                                                    *U.ok*
     Only this will be documented
 ```
 
+### Nodoc
+
+This is a special tag that is picked up by vimcats, but not by language servers or type checkers.
+It allows you to suppress vimdoc generation (just like `private`, `package`, `protected`),
+without influencing your type checker.
+
+```lua
+---@nodoc
+function U.undocumented()
+    print('This function is undocumented!')
+end
+```
+
 ### Export
 
 This tag is used to manually tag the exported object. This is required for cases where `vimcats` is unable to parse the `return` statement at the end such as `return setmetatable(...)`. But keep in mind the following:
