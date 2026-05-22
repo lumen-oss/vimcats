@@ -5,7 +5,7 @@
 
 ### Features
 
-* support suppressing vimdoc with `---[@nodoc](https://github.com/nodoc)` annotations ([#40](https://github.com/mrcjkb/vimcats/issues/40)) ([2cf0aea](https://github.com/mrcjkb/vimcats/commit/2cf0aea103cabcd6e96b05516e054582143a8b76))
+* support suppressing vimdoc with `---@nodoc` annotations ([#40](https://github.com/mrcjkb/vimcats/issues/40)) ([2cf0aea](https://github.com/mrcjkb/vimcats/commit/2cf0aea103cabcd6e96b05516e054582143a8b76))
 
 ## [1.1.1](https://github.com/mrcjkb/vimcats/compare/v1.1.0...v1.1.1) (2025-05-15)
 
