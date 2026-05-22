@@ -32,6 +32,7 @@ impl Lexer {
         let private = keyword("private")
             .to(Scope::Private)
             .or(keyword("protected").to(Scope::Protected))
+            .or(keyword("nodoc").to(Scope::Package))
             .or(keyword("package").to(Scope::Package));
         let exact_attr = just("(exact)");
 

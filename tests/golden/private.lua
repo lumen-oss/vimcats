@@ -1,5 +1,12 @@
 local U = {}
 
+---@nodoc
+---This is a hidden function which is exported
+---but undocumented
+function U.undocumented()
+    print('I am undocumented!')
+end
+
 ---@private
 ---This is a private function which is exported
 ---But not considered as part of the API
